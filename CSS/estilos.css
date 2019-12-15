@@ -1,0 +1,382 @@
+body {
+    background: #fff;
+    color:  #000;
+     font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1290px;
+    padding: 2em 2em 4em;
+}
+
+html, head {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+a {
+    color: #00466D;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    color:  #00466D;
+    line-height: 1.3;
+    font-family: 'Open Sans', serif, sans-serif;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    margin-top: 1.3em;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+b, strong {
+    font-weight: 700;
+}
+
+
+#cabecera1 {
+    background-color: #fff;
+    text-align: center; 
+    width: 100%;
+}
+
+.logo {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    animation: bounceIn 2s !important;
+}
+
+
+.logo-footer {
+    margin-bottom: 0px;
+}
+
+.logo-footer {
+clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+}
+
+#nav {
+    margin-top: -30px;
+    margin-bottom: 100px;
+}
+
+#nav li {
+    display: inline;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;  
+}
+
+#nav li a {
+    color: #000;
+    text-decoration: none;
+}
+
+#nav li a:link  {
+    color: #000;
+}
+
+#nav li a:visited  {
+    color: #000;
+    border-bottom: 2px solid #00466D;
+}
+
+#nav li a:focus  {
+    color: #000;
+    border-bottom: 2px solid #00466D;
+}
+
+#nav li a:hover  {
+    color: #000;
+    border-bottom: 2px solid #00466D;
+}
+
+#nav li a:active {
+    color: #000;
+    border-bottom: 2px solid #00466D;
+}
+
+#nav li strong {
+    color: #000;
+    border-bottom: 2px solid #00466D;
+}
+
+#breadcrumb li {
+    display: inline;
+    color: #000;
+}
+
+#breadcrumb  li a {
+    color: #000;
+}
+
+#submenu li {
+    display: inline;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#submenu li a {
+    color: #fff !important;
+    border: 2px solid #00466D;
+    background-color: #00466D;
+    padding: 10px;
+    transition: background-color 0.5s ease-out;
+}
+
+#submenu {
+        text-align: center;
+        margin: 50px 0px;
+}
+
+#submenu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#submenu li a:link  {
+    color: #fff;
+}
+
+#submenu li a:visited  {
+    color: #fff;
+}
+
+#submenu li a:focus  {
+    color: #000;
+}
+
+#submenu li a:hover  {
+    color: #00466D !important;
+    background-color: #fff;
+    transition-duration: 0.6s;
+}
+
+#submenu li a:active {
+    color: #000;
+
+}
+
+#submenu li strong {
+    color: #000;
+}
+
+
+.desechos-marinos, #redDeriva, #redPesca, #macro, #micro, #nano {
+    border-bottom: 5px solid #00466D;
+}
+
+
+.desechos-marinos {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+.title-desechos h2 {
+    margin-bottom: 50px;
+}
+
+.img1 {
+    width: 33%;
+}
+
+.img2 {
+    width: 33%;
+}
+
+.img3 {
+    width: 33%;
+}
+
+.redes, .plasticos {
+    width: 50%;
+}
+
+#redDeriva, #redPesca, #macro, #micro, #nano {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.img-deriva, .img-pesca, .img-macro, .img-micro, .img-nano {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.texto-deriva, .texto-pesca, .texto-macro, .texto-micro, .texto-nano {
+    width: 50%;
+}
+
+.pagina-detalle-nurdles {
+    width: 100%;
+    min-height: 300px;
+    background-size: cover;
+    background-image: url("../img/nurdles-2.jpg");
+    background-repeat: no-repeat;   
+    margin-bottom: 30px;
+}
+
+.pagina-detalle-microplasticos {
+    width: 100%;
+    min-height: 300px;
+    background-size: cover;
+    background-image: url("../img/micro-plastico.jpg");
+    background-repeat: no-repeat;   
+    margin-bottom: 30px;
+}
+
+.pagina-detalle-nanoplasticos {
+    width: 100%;
+    min-height: 300px;
+    background-size: cover;
+    background-image: url("../img/nano-plastico.jpg");
+    background-repeat: no-repeat;   
+    margin-bottom: 30px;
+}
+
+.pagina-detalle-redderiva {
+    width: 100%;
+    min-height: 300px;
+    background-size: cover;
+    background-image: url("../img/driftnets.jpg");
+    background-repeat: no-repeat;   
+    margin-bottom: 30px;
+}
+
+.pagina-detalle-redpesca {
+    width: 100%;
+    min-height: 300px;
+    background-size: cover;
+    background-image: url("../img/fish-net.jpg");
+    background-repeat: no-repeat;   
+    margin-bottom: 30px;
+}
+
+.pagina-detalle-nurdles h1, .pagina-detalle-microplasticos h1, .pagina-detalle-nanoplasticos h1, .pagina-detalle-redderiva h1, .pagina-detalle-redpesca h1 {
+    text-align: center;
+    padding-top: 50px;
+    color: #fff;
+}
+
+.pagina-detalle-nurdles p, .pagina-detalle-microplasticos p, .pagina-detalle-nanoplasticos p, .pagina-detalle-redderiva p, .pagina-detalle-redpesca p {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+
+.contenedor-detalle {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.mas-detalle {
+    width: 100%;
+    text-align: center;
+}
+
+
+#footer {
+    width: 100%;
+    margin: 0;
+    border-top: 2px solid #00466D;
+    color: #000;
+    clear: both;
+    min-height: 150px;
+    text-align: center;
+}
+
+
+#footer li {
+    list-style: none; 
+}
+
+.twitter i, .facebook i, .instagram i, .youtube i {
+    font-size: 30px;
+    color: #00466D;
+    margin-top: 30px;
+}
+
+#rrss p {
+    display: inline;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#footer p {
+    text-align: center;
+    font-size: 12px;
+}
+
+#footer p a {
+    color: #00466D;
+}
+
+.img-slider {
+    display: none;
+    max-height: 400px;
+    width: 100%;
+}
+
+.boton-derecha, .boton-izquierda {
+    background-color: #00466D;
+    color: #fff;
+    padding: 10px 20px;
+    border: none !important;
+    margin-top: 20px;
+}
+  
+.img1, .img2, .img3, .redes, .nurdles, .plasticos, .img-micro, .img-nano, .img-macro, .img-deriva, .img-pesca {
+    animation: animacion 1s;
+}
+
+@keyframes animacion {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+    #nav li {
+    	display: block !important;
+    	margin-left: -30px;
+    }
+    .img1, .img2, .img3, .redes, .plasticos, .nurdles {
+    	width: 100%;
+    }
+    .img-macro, .img-micro, .img-nano, .texto-micro, .texto-macro, .texto-nano, .img-deriva, .texto-deriva, .img-pesca, .texto-pesca {
+    	width: 100%;
+    	}
+    #submenu li{
+    	text-align: left;
+    	display: inline !important;
+    	width: 33%;
+    }
+    .mas-detalle {
+    	width: 100%;
+    }
+}
