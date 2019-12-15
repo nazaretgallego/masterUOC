@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>INDEX</title>
+        <meta name="description" content="FREE OCEAN">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/estilos.css"> 
+        <link rel="icon" type="image/png" href="img/favicon-free-ocean.png" sizes="64x64"> 
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700Merriweather" rel="stylesheet">
+    </head>
+    <body>
+        
+        
+        <div id="cabecera1">
+            <h1>FREE OCEAN COMPANY</h1>
+            <div class="logo">
+                <a href="index.html"><img src="img/logo-free-ocean.png" alt="Logo de FREE OCEAN" width="200" height="180"></a>
+            </div>
+            
+            <div id="nav">
+                <ul>
+                    <li><a href="redes-fantasma.html">REDES FANTASMA</a></li>
+                    <li><a href="plasticos.html">PLÁSTICOS</a></li>
+                    <li><a href="nurdles.html">NURDLES</a></li>
+                </ul>
+            </div>
+
+            <div class="slider">
+              <img class="img-slider" src="img/freeocean-2.jpg">
+              <img class="img-slider" src="img/freeocean-1.jpg">
+
+              <button class="boton-izquierda" onclick="plusDivs(-1)">&#10094;</button>
+              <button class="boton-derecha" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+        
+        </div>
+        
+        <span class="title-desechos"><h2>Desechos Marinos</h2></span>
+        <div class="desechos-marinos">   
+
+                <section class="img1"><a href="redes-fantasma.html"><img src="img/fishing-net.jpg" alt="Redes de pesca" width="400" height="300">
+                    <h3>Redes Fantasma</h3></a>
+                </section>
+                <section class="img2"><a href="plasticos.html"><img src="img/plastic-bottle.jpg" alt="Botella de plástico en el mar" width="400" height="300">
+                    <h3>Plásticos</h3></a>
+                </section>
+                <section class="img3"><a href="nurdles.html"><img src="img/nurdles.jpg" alt="Nurdles en la mano de una persona" width="400" height="300">
+                    <h3>Nurdles</h3></a>
+                </section>
+        </div>
+
+        
+        <div id="footer">
+        		<h3>FREE OCEAN COMPANY</h3>
+            	
+            	<div class="logo">
+                	<a href="index.html"><img src="img/logo-free-ocean-footer.svg" alt="" class="logo-footer" alt="Logo de FREE OCEAN" width="100" height="80"></a>
+            	</div>  
+
+            <div>
+                <ul>
+                    <li>Plaza del Carmen, 23. 41800 - Sevilla</li>
+                    <li>Tel. 954 55 55 55</li>
+                    <li><a href="mailto:info@freeocean.org">info@freeocean.org</a></li>
+                    <li id="rrss">
+                        <p><a href=""><span class="twitter"><i class="fab fa-twitter-square"></i></span></a></p>
+                        <p><a href=""><span class="facebook"><i class="fab fa-facebook-square"></i></span></a></p> 
+                        <p><a href=""><span class="instagram"><i class="fab fa-instagram"></i></span></a></p>
+                        <p><a href=""><span class="youtube"><i class="fab fa-youtube"></i></span></a></p>
+                    </li>
+                </ul>
+                
+            </div>
+            
+
+            <div id="creditos">
+                <p>© FREE OCEAN. Fotografías, <a href="https://unsplash.com/">Unsplash</a></p>        
+                <p>Actividad realizada por <strong>Nazaret Gallego del Pino</strong>, para la asignatura HTML y CSS I. Primer semestre del curso 2019-2020</p>
+            </div>
+ 
+        </div>
+
+<!-- Código Javascript para slider -->
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("img-slider");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              x[slideIndex-1].style.display = "block";  
+            }
+        </script>
+        
+    </body>
+</html>
